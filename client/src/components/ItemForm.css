@@ -1,0 +1,24 @@
+.item-form {
+  background-color: #f0f8ff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.item-form input,
+.item-form button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.item-form button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.item-form button:hover {
+  background-color: #45a049;
+}

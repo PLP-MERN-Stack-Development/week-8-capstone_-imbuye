@@ -1,0 +1,38 @@
+.feedback-container {
+  max-width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fefefe;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.feedback-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.feedback-container p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.feedback-button {
+  display: inline-block;
+  background-color: #ff69b4; /* light pink */
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-button:hover {
+  background-color: #ff1493; /* deep pink */
+}
